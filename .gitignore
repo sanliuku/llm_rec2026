@@ -1,0 +1,20 @@
+data/
+prepare_data/
+
+# 实验产物目录：runs/<md5>/ 以及任意 run_* 目录都不追踪
+**/runs/
+**/run_*/
+
+# python缓存
+__pycache__/
+**/__pycache__/
+
+.workbuddy
+
+seed_*/
+
+mid/
+small/
+
+.workbuddy/
+local_llm/
