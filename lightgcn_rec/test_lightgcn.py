@@ -37,7 +37,7 @@ from utils import L_for_lightGCN, get_scores, test_MRR, test_HR, test_ndcg_100_k
 DATA_DIR = os.path.join(PROJECT_ROOT, 'data/MOOCCube/mid_data/need_data') + os.sep
 RUN_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mid')
 
-SEEDS = [12]
+SEEDS = [12, 22, 32, 42, 52]
 NUM_NEG = 20
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

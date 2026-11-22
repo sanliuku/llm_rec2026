@@ -34,10 +34,10 @@ from bprmf_rec.bprmf import BPRMF  # noqa: F401  # torch.save 的是整个模型
 from utils import get_scores, test_MRR, test_HR, test_ndcg_100_k
 
 # ------------------------------------------------------------------ 配置
-DATA_DIR = os.path.join(PROJECT_ROOT, 'data/MOOCCube/small_data/need_data') + os.sep
-RUN_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'small')
+DATA_DIR = os.path.join(PROJECT_ROOT, 'data/MOOCCube/mid_data/need_data') + os.sep
+RUN_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mid')
 
-SEEDS = [12]
+SEEDS = [12, 22, 32, 42, 52]
 NUM_NEG = 20  # test_negative19.p：19 个负例 + 1 个正例
 
 

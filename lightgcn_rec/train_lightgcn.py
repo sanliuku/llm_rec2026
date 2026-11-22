@@ -31,10 +31,10 @@ from lightgcn_rec.lightgcn import lightGCN
 from utils import L_for_lightGCN, UIDataset, BPRLoss, l2Loss
 
 # ------------------------------------------------------------------ 配置
-DATA_DIR = os.path.join(PROJECT_ROOT, 'data/MOOCCube/small_data/need_data') + os.sep
-OUT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'small')
+DATA_DIR = os.path.join(PROJECT_ROOT, 'data/MOOCCube/mid_data/need_data') + os.sep
+OUT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mid')
 
-SEEDS = [12, 22, 32, 42, 52]
+SEEDS = [42]
 
 EMB_DIM = 256
 NUM_LAYERS = 2
